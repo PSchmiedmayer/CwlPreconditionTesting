@@ -46,4 +46,4 @@ jobs:
     - name: Check Swift version
       run: swift --version
     - name: Build & Test
-      run: swift test
+      run: swift test --enable-test-discovery
