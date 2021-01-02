@@ -18,10 +18,9 @@
 //  IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
-
 #if TARGET_OS_OSX || TARGET_OS_IOS
 
+#import <Foundation/Foundation.h>
 #import <mach/mach.h>
 
 extern bool _swift_disableExclusivityChecking;
